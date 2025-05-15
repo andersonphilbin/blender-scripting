@@ -1,3 +1,10 @@
+Notes after forking from https://github.com/njanakiev/blender-scripting.
+
+A few script fixes were needed to get it run with Blender 4.4. Commented out the Specular material input for the clouds.
+
+Scipy needs to be installed to run the voronoi scripts: C:\Apps\Blender Foundation\Blender 4.4\4.4\python\bin>python -m pip install scipy
+
+
 # blender-scripting
 This is a collection of simple to more involved examples to scripting in [Blender](https://www.blender.org/) with Python.
 
